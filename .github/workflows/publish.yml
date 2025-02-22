@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Download Psychrolib
+        run: wget 'https://raw.githubusercontent.com/psychrometrics/psychrolib/refs/heads/master/src/js/psychrolib.js'
       - name: Set NPM Token
         run: npm config set '//registry.npmjs.org/:_authToken' "${{ secrets.NPM_TOKEN }}"
       - name: Publish Package
