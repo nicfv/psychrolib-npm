@@ -2,7 +2,7 @@
 
 ### *Library of psychrometric functions to calculate thermodynamic properties of air for JavaScript*
 
-This creates an npm package for the [PsychroLib](https://github.com/psychrometrics/psychrolib) library.
+This creates an npm package for the [PsychroLib](https://github.com/psychrometrics/psychrolib) library. Please bring up any issues, bug reports, or feature requests eith PsychroLib directly in the PsychroLib repository.
 
 ## Links
 
@@ -11,4 +11,4 @@ This creates an npm package for the [PsychroLib](https://github.com/psychrometri
 
 ## Disclaimer
 
-I am an independent creator, not affiliated with the original contributors to the PsychroLib repository or ASHRAE. This package is a copy of the JavaScript source code and published manually to NPM.
+I am an independent creator, not affiliated with the original contributors to the PsychroLib repository or ASHRAE. This package is a direct copy of the JavaScript source code and published manually to NPM. All credit is deserved to the original contributors of PsychroLib.
