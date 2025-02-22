@@ -9,6 +9,20 @@ This creates an npm package for the [PsychroLib](https://github.com/psychrometri
 - [Original Repo](https://github.com/psychrometrics/psychrolib)
 - [NPM Package](https://www.npmjs.com/package/psychrolib)
 
+## Usage
+
+### Module
+
+```js
+import psychrolib from 'psychrolib';
+```
+
+### CommonJS
+
+```js
+const psychrolib = require('psychrolib');
+```
+
 ## Disclaimer
 
 I am an independent creator, not affiliated with the original contributors to the PsychroLib repository or ASHRAE. This package is a direct copy of the JavaScript source code and published manually to NPM. All credit is deserved to the original contributors of PsychroLib.
