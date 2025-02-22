@@ -11,6 +11,14 @@ This creates an npm package for the [PsychroLib](https://github.com/psychrometri
 
 ## Usage
 
+See the PsychroLib repository to learn how to use PsychroLib.
+
+### Installation
+
+```shell
+npm i psychrolib@latest
+```
+
 ### Module
 
 ```js
@@ -21,6 +29,15 @@ import psychrolib from 'psychrolib';
 
 ```js
 const psychrolib = require('psychrolib');
+```
+
+## Updating This Package
+
+Because physics/thermodynamics rarely changes, the PsychroLib library is stable. In the event that changes are made to the PsychroLib source code, the corresponding NPM package can be updated using the following commands, which will trigger the publishing workflow:
+
+```shell
+npm version <major|minor|patch>
+git push
 ```
 
 ## Disclaimer
