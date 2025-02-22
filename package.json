@@ -1,21 +1,28 @@
 {
-  "name": "psychrolib-npm",
-  "version": "1.0.0",
-  "description": "This ports the PsychroLib library to npm.",
+  "name": "psychrolib",
+  "version": "0.0.0",
+  "description": "Library of psychrometric functions to calculate thermodynamic properties of air for JavaScript",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicfv/psychrolib-npm.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "engineering",
+    "temperature",
+    "meteorology",
+    "pressure",
+    "humidity",
+    "hvac",
+    "psychrometric",
+    "thermodynamic",
+    "ashrae"
+  ],
+  "author": "PsychroLib Contributors",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/nicfv/psychrolib-npm/issues"
+    "url": "https://github.com/psychrometrics/psychrolib/issues"
   },
-  "homepage": "https://github.com/nicfv/psychrolib-npm#readme"
+  "homepage": "https://github.com/psychrometrics/psychrolib"
 }
