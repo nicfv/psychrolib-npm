@@ -1,6 +1,6 @@
 {
   "name": "psychrolib",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Library of psychrometric functions to calculate thermodynamic properties of air for JavaScript",
   "main": "psychrolib.js",
   "files": [
