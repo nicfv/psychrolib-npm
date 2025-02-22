@@ -2,7 +2,10 @@
   "name": "psychrolib",
   "version": "0.0.1",
   "description": "Library of psychrometric functions to calculate thermodynamic properties of air for JavaScript",
-  "main": "index.js",
+  "main": "psychrolib.js",
+  "files": [
+    "psychrolib.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicfv/psychrolib-npm.git"
@@ -21,8 +24,5 @@
   "author": "PsychroLib Contributors",
   "license": "MIT",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/psychrometrics/psychrolib/issues"
-  },
   "homepage": "https://github.com/psychrometrics/psychrolib"
 }
