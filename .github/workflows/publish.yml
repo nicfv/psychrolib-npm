@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Update NPM
+        run: npm i -g npm@latest
       - name: Download Psychrolib
         run: wget 'https://raw.githubusercontent.com/psychrometrics/psychrolib/refs/heads/master/src/js/psychrolib.js'
       - name: Download License
